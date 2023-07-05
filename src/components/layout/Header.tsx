@@ -36,7 +36,7 @@ const Header = () => {
             <ul
               className={`${
                 open ? "block" : "hidden"
-              } flex flex-col gap-4 md:flex-row`}
+              } flex flex-col gap-4 md:flex-row md:flex`}
             >
               {links.map((item, i) => (
                 <li key={i} className="hover:underline">
